@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pausa Café & bistró · Cala Millor</title>
+<meta name="description" content="Café, brunch y bistró en Cala Millor. Pancakes, pasta de trufa, sangría. viña del mar 25." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="brand" aria-label="Pausa Café & bistró Cala Millor">
+      <span class="brand-name">Pausa</span>
+      <span class="brand-sub">Café & bistró · Cala Millor</span>
+    </a>
+
+    <nav class="nav-main" aria-label="Main navigation">
+      <a href="#empfehlungen" data-i18n="nav.menu">Recomendaciones</a>
+      <a href="#eindruecke" data-i18n="nav.gallery">Imágenes</a>
+      <a href="#historia" data-i18n="nav.story">Sobre nosotros</a>
+      <a href="#visitanos" data-i18n="nav.visit">Visita</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Idioma">
+        <button data-lang="es" class="lang-btn is-active">ES</button>
+        <button data-lang="en" class="lang-btn">EN</button>
+        <button data-lang="de" class="lang-btn">DE</button>
+      </div>
+      <a href="tel:+34633820738" class="btn btn-primary btn-reserve" data-i18n="cta.reserve">Reservar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Cala Millor · Mallorca</p>
+    <h1 class="hero-title" data-i18n="hero.title">Tu pausa<br/>favorita.</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Café, brunch y bistró en Cala Millor — desde los pancakes de la mañana hasta la pasta de trufa de la cena.</p>
+    <div class="hero-cta">
+      <a href="tel:+34633820738" class="btn btn-primary" data-i18n="hero.reserve">Reservar mesa</a>
+      <a href="https://wa.me/34633820738" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div class="hero-meta">
+      <span data-i18n="hero.hours">Todos los días desde 09:30</span>
+      <span class="dot">·</span>
+      <span class="rating" data-i18n="hero.rating">★ 4,8 · 719 reseñas en Google</span>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="historia">
+  <div class="container story-grid">
+    <div class="story-text">
+      <p class="kicker" data-i18n="story.kicker">Sobre nosotros</p>
+      <h2 data-i18n="story.title">Café, brunch y mucho más.</h2>
+      <p data-i18n="story.p1">Pausa Café & bistró es nuestro pequeño rincón de Cala Millor — un local llevado por mujeres, luminoso y acogedor, abierto desde la mañana hasta la noche.</p>
+      <p data-i18n="story.p2">Aquí se viene a desayunar pancakes y cappuccino, a comer pasta de trufa, a tomar una sangría con amigos o a llevarse la cena a casa. Cuidamos los detalles — y se nota en cada plato.</p>
+    </div>
+    <ul class="story-stats">
+      <li><strong>4,8 ★</strong><span data-i18n="story.statRating">719 reseñas Google</span></li>
+      <li><strong>Drive-in</strong><span data-i18n="story.statDrive">Recogida y entrega sin contacto</span></li>
+      <li><strong>10–20 €</strong><span data-i18n="story.statPrice">por persona</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="gallery" id="eindruecke">
+  <div class="container">
+    <header class="section-head">
+      <p class="kicker" data-i18n="gallery.kicker">Imágenes</p>
+      <h2 data-i18n="gallery.title">Así somos.</h2>
+    </header>
+    <div class="gallery-grid">
+      <figure class="gallery-item gallery-item--big">
+        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Pancakes y café" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Cappuccino" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1485921325833-c519f76c4927?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Brunch" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Café interior" loading="lazy">
+      </figure>
+    </div>
+    <p class="menu-note" data-i18n="gallery.note">Imágenes de muestra — las cambiamos por fotos reales de vuestros platos y del local a petición.</p>
+  </div>
+</section>
+
+<section class="menu" id="empfehlungen">
+  <div class="container">
+    <header class="section-head">
+      <p class="kicker" data-i18n="menu.kicker">Recomendaciones</p>
+      <h2 data-i18n="menu.title">Lo que más gusta a nuestros clientes.</h2>
+    </header>
+
+    <div class="rec-grid" id="recGrid"></div>
+
+    <p class="menu-note" data-i18n="menu.note">La carta completa está en el local. Pedidos online disponibles vía foodiedelivery.</p>
+  </div>
+</section>
+
+<section class="visit" id="visitanos">
+  <div class="container visit-grid">
+    <div class="visit-info">
+      <p class="kicker" data-i18n="visit.kicker">Visita</p>
+      <h2 data-i18n="visit.title">viña del mar, 25 — Cala Millor</h2>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.hoursLabel">Horario</p>
+        <p data-i18n="visit.hoursMain">Todos los días desde las 09:30</p>
+        <p class="muted" data-i18n="visit.hoursNote">Horario actualizado en Google Maps</p>
+      </div>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.addressLabel">Dirección</p>
+        <p>viña del mar, 25<br/>07560 Cala Millor · Mallorca</p>
+      </div>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.contactLabel">Contacto</p>
+        <p><a href="tel:+34633820738">+34 633 82 07 38</a></p>
+        <p><a href="https://wa.me/34633820738" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+
+      <div class="visit-cta">
+        <a href="tel:+34633820738" class="btn btn-primary" data-i18n="visit.callCta">Llamar para reservar</a>
+        <a href="https://wa.me/34633820738" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="visit-map">
+      <iframe
+        src="https://www.google.com/maps?q=Pausa+Caf%C3%A9+%26+bistr%C3%B3,+vi%C3%B1a+del+mar+25,+Cala+Millor&z=16&output=embed"
+        title="Pausa Café & bistró — viña del mar 25"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">Pausa <em>Café & bistró</em></p>
+      <p class="footer-tag" data-i18n="footer.tag">Café · Brunch · Bistró · Cala Millor</p>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <p class="footer-label" data-i18n="footer.findUs">Dónde estamos</p>
+        <p>viña del mar, 25<br/>07560 Cala Millor</p>
+      </div>
+      <div>
+        <p class="footer-label" data-i18n="footer.hours">Horario</p>
+        <p data-i18n="footer.hoursLine">Todos los días · desde 09:30</p>
+      </div>
+      <div>
+        <p class="footer-label" data-i18n="footer.contact">Contacto</p>
+        <p><a href="tel:+34633820738">+34 633 82 07 38</a></p>
+        <p><a href="https://wa.me/34633820738" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Pausa Café & bistró · Cala Millor</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
